@@ -61,12 +61,18 @@ document.instantquiz.thesolution.value=solution[whichone]
 }
 
 function responses(){
-var temp2=document.instantquiz.theresponse
-var temp3=temp2.options[temp2.selectedIndex].text
-if (temp3!=solution[whichone]&&temp2.selectedIndex!=0)
-document.instantquiz.thesolution.value="Sorry, the correct answer is "+solution[whichone]
-else if(temp2.selectedIndex!=0)
-document.instantquiz.thesolution.value=compliments[Math.round(Math.random()*compliments.length-1)]
+    var temp2 = document.instantquiz.theresponse;
+    var temp3 = temp2.options[temp2.selectedIndex].text;
+
+    if (temp3 != solution[whichone] && temp2.selectedIndex != 0) {
+        document.instantquiz.thesolution.value =
+            "Sorry, the correct answer is " + solution[whichone];
+    } else if (temp2.selectedIndex != 0) {
+        // ----- NEW CODE -----
+        var idx = Math.floor(Math.random() * compliments.length);
+        document.instantquiz.thesolution.value = compliments[idx];
+        // --------------------
+    }
 }
 
 generatequestions()
