@@ -14,8 +14,11 @@ compliments[2]="You know your cat facts!"
 compliments[3]="Good work!"
 compliments[4]="Meownderful!"
 compliments[5]="Cat-tastic!"
-
-
+compliments[6]="Purrfect!"
+compliments[7]="Great job!"
+compliments[8]="Good work!"
+compliments[9]="Meownderful!"
+compliments[10]="Cat-tastic!"
 
 question[1]="Which cat coloration is primarily male?"
 choice1[1]="Tabby"
