@@ -29,7 +29,7 @@ choice2[2]="Calico"
 choice2[3]="Black"
 choice2[4]="Orange (Ginger)"
 
-question[3]="Which of the following is a true statement?"
+question[3]="Which of the following is a TRUE statement?"
 choice3[1]="Maine coons are among the smaller breeds of cat."
 choice3[2]="Cats' meows are primarily a learned behavior to communicate with humans."
 choice3[3]="Cats' whiskers are just longer hairs and serve no true purpose."
